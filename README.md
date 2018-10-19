@@ -1,15 +1,21 @@
 # Parase-CommandLine-parameters
-This code is for parasing command line parameter easier.
+
+This code is for parasing command line parameters easier.
+
 ===
 
 ## The example of how to use it could be:
+
 ```
 xxxx.exe --Vstring="lai" --Vint=5 --Vdouble=1.0 --Vbool=1 --Vulong=123456789
 ```
-Note that, for now, there shold no have space beside "=". We will fix it in next version.
+
+Note that, for now, there shouldn't have space beside "=". We will support it in next version.
+
 ---
 
 ## Part of demo
+
 ```
 typedef std::vector< std::vector< std::string > > nameAndType;
 typedef std::map<std::string, std::string> nameAndValue_str;
@@ -36,24 +42,29 @@ typedef std::map<std::string, std::string> nameAndValue_str;
 	else
 		return -1;
 ```
+
 Every elements of vecParaList should contain NAME,TYPE,MEANING(Can be "");
 When you give a type, you need to modify it into the keywords as follow.
 
+---
 
 ## The list of supported types
-  { typeName in C++			,keywords },
-	{ std::string			    ,string },
-	{ int					        ,int },
-	{ unsigned int		    ,uint },
-	{ long					      ,long },
-	{ unsigned long		    ,ulong },
-	{ long long				    ,longlong},
-	{ unsigned long long	,ulonglong },
-	{ short					      ,short },
-	{ unsigned short		  ,ushort },
-	{ float					      ,float },
-	{ double				      ,double },
-	{ bool					      ,bool}
+
+typeName in C++|keywords
+---|:--:|
+typeName in C++|keywords
+std::string|string
+int|int
+unsigned int|uint
+long|long
+unsigned long|ulong
+long long|longlong
+unsigned long long|ulonglong 
+short|short
+unsigned short|ushort
+float|float
+double|double
+bool|bool
   
 ---
 

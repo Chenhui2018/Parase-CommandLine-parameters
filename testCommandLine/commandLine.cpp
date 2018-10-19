@@ -28,12 +28,12 @@ int main(int argc, char* argv[])
 		{  "Vint",		"int" ,			 "A integer"},
 		{  "Vuint",		"uint" ,		 "NULL"},
 		{  "Vlong",		"long" ,		 "NULL"},
-		{  "Vulong",		"ulong" ,	 "NULL"},
+		{  "Vulong",	"ulong" ,		"NULL"},
 		{  "Vlonglong",	"longlong" ,	 "NULL"},
-		{  "Vulonglong",	"ulonglong" ,"NULL"},
-		{  "Vshort",		"short" ,	 "NULL"},
+		{  "Vulonglong","ulonglong" ,	"NULL"},
+		{  "Vshort",	"short" ,		"NULL"},
 		{  "Vushort",	"ushort" ,		 "NULL"},
-		{  "Vfloat",		"float" ,	 "NULL"},
+		{  "Vfloat",	"float" ,		"NULL"},
 		{  "Vdouble",	"double" ,		 "NULL"},
 		{  "Vbool",		"bool",			 "NULL"}
 	};
